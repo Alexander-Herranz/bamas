@@ -5,13 +5,13 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2014, Script Tutorials
  * http://www.script-tutorials.com/
  */
 
-$(document).ready(function (){
-
+ $(document).ready(function (){
+  /*
   // create a LatLng object containing the coordinate for the center of the map
   var latlng = new google.maps.LatLng(-33.86455, 151.209);
 
@@ -40,7 +40,16 @@ $(document).ready(function (){
   });
 
   // add information window
+
   var infowindow = new google.maps.InfoWindow({
     content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
-  });  
+  });
+  */
+
+$( "#login-btn" ).on( "click", function() {
+  //$( "#public-site" ).load( "pages/panel-control.html" );
+  window.location.replace('http://localhost:8080/panel-control.html');
+});
+
+
 });
