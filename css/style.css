@@ -48,6 +48,14 @@ html, body {
 
 #about {
 }
+#registrar {  
+ 
+  text-align: center;
+}
+#volver {  
+  font-size: xx-large;
+  text-align: center;
+}
 
 #services {
   background-color: #306d9f;
