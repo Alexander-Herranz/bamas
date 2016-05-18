@@ -21,4 +21,5 @@ $(document).ready(function (){
 	window.location.replace('http://localhost:8080/cuenta-remunerada.html');
 	});
 
+	
 });
