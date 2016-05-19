@@ -51,5 +51,9 @@ $( "#login-btn" ).on( "click", function() {
   window.location.replace('http://localhost:8080/panel-control.html');
 });
 
+$( "#login-btn-about" ).on( "click", function() {
+	//$( "#public-site" ).load( "pages/panel-control.html" );
+	window.location.replace('http://localhost:8080/about.html');
+	});
 
 });
